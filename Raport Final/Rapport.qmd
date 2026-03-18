@@ -1,19 +1,64 @@
 ---
-title: "Corruption et Innovation \n- Sujet : 50"
-author: "Combes Florent id2915 - Dumas Elouan id2888 - Perron Ewen id2999"
 format:
   pdf:
     documentclass: report
     classoption: oneside
-    pdf-engine: pdflatex 
-    toc: true
+    pdf-engine: pdflatex
 lang: fr
-fontsize: 11pt
+fontsize: 12pt
 papersize: a4
 geometry: top=1.5cm, bottom=1.5cm, left=2.5cm, right=2.5cm
-link-citations: true 
+link-citations: true
 nocite: "@*"
+header-includes:
+  - \usepackage{mathptmx}  
+  - \usepackage[colorlinks=true, linkcolor=black, urlcolor=black, citecolor=black]{hyperref}
 ---
+
+```{=latex}
+\begin{titlepage}
+\centering
+
+% Logo
+\includegraphics[width=0.3\textwidth]{ensai_logo_1.png}\\[1cm]
+
+{\Large \textsc{Rapport du projet d'économie}}\\[0.5cm]
+{\normalsize Elèves 1A}\\[2cm]
+
+\rule{\textwidth}{0.5pt}\\[0.7cm]
+
+{\LARGE \textbf{Corruption et Innovation - Sujet 50}}\\[0.7cm]
+
+\rule{\textwidth}{0.5pt}\\[2cm]
+
+\begin{minipage}{0.45\textwidth}
+\raggedright
+\textit{Étudiants :}\\
+Combes Florent id2915\\
+Dumas Elouan id2888\\
+Perron Ewen id2999
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\raggedleft
+\textit{Responsable :}\\
+Alpha Ly \\[0.5cm]
+
+\textit{Encadrant(e) :}\\
+Harouna Sedgo
+\end{minipage}
+
+\vfill
+
+{\small École nationale de la statistique et de l’analyse de l’information}\\
+{\small 2025–2026}
+
+\end{titlepage}
+
+\clearpage
+\tableofcontents
+\clearpage
+```
 
 # Introduction 
 
